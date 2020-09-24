@@ -19,5 +19,5 @@ if VARIABLE_NAME == 'sleep':
         return row['shallowSleepTime'] + row['deepSleepTime']
     data['sleep'] = data['shallowSleepTime'] + data['deepSleepTime']
 
-print(data.mean()[VARIABLE_NAME]/60)
-print(data.std()[VARIABLE_NAME]/60)
+print(data.mean()[VARIABLE_NAME])
+print(data.std()[VARIABLE_NAME])
